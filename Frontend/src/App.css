@@ -1,0 +1,299 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+/* Navbar section  css */
+.navSection {
+  /* border: 1px solid red; */
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #124E66;
+  align-items: center;
+  color: white;
+  padding: 0 20px;
+  font-size: large;
+  cursor: pointer;
+}
+
+.wellCome h2{
+    /* color: ; */
+    background-color: #748D92;
+    box-shadow: 4.0px 8.0px 8.0px hsl(0deg 0% 0% / 0.38);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.firmname,.company{
+    box-shadow: 4.0px 8.0px 8.0px hsl(0deg 0% 0% / 0.38);
+    padding: 6px 10px;
+    /* background-color: #748D92; */
+    color: rgb(244, 246, 248);
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+
+ button {
+    border: none;
+    margin-right: 10px;
+    padding: 8px 15px;
+    border-radius: 8px;
+    background-color: #748D92;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+/* welcome vendor */
+
+.wellCome{
+    font-size: 60px;
+    padding-left: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sidebarSection {
+  /* border: 1px solid red; */
+  width: 100%;
+  max-width: 15%;
+  height: 95vh;
+  padding-top: 10px;
+  background-color: #D3D9D4;
+}
+
+.sidebarSection ul li{
+    list-style: none;
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: medium;
+    cursor: pointer;
+
+}
+
+/* collection section */
+
+.collectionSection{
+    display: flex;
+    
+}
+
+/* login section */
+
+.loginSection{
+    /* border: 1px solid red ; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    /* cursor: pointer; */
+
+}
+
+.registerSection{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* form Section */
+
+.authForm{
+    width: 100%;
+    max-width: 50%;
+    /* border: 1px solid gray; */
+    border-radius: 10px;
+    margin-top: -230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+    border-color: #030d18; /* Change border color when input is focused */
+  box-shadow: 0 0 0 0.2rem rgba(45, 50, 54, 0.25);
+}
+label{
+    padding-bottom: 10px;
+}
+
+.authForm input{
+    width: 100%;
+    max-width: 55%;
+    height: 1.4rem;
+}
+.authForm label{
+    /* border: 1px solid red ; */
+    width: 100%;
+    max-width: 55%;
+    font-weight: 400;
+}
+
+/* Add firm section */
+
+.firmSection{
+    /* border: 1px solid red ; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    /* border: 1px solid red; */
+
+}
+.tableForm{
+    /* border: 1px solid red; */
+    width: 100%;
+    max-width: 50%;
+    /* border: 1px solid gray; */
+    border-radius: 10px;
+    margin-top: -100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    /* border-color: #030d18;  */
+    box-shadow: 0 0 0 0.2rem rgba(45, 50, 54, 0.25);
+}
+.tableForm input{
+    width: 100%;
+    max-width: 85%;
+    height: 30px;
+    margin-bottom: 10px;
+    outline: none;
+}
+
+input{
+    border-radius: 10px;
+}
+input:focus {
+    outline: none; 
+  }
+  
+
+.tableForm label{
+    /* border: 1px solid red ; */
+    width: 100%;
+    max-width: 85%;
+    font-weight: 600;
+    margin: 4px;
+}
+.btnSubmit{
+    margin-bottom: 10px;
+}
+/* checkbox inputs */
+.checkInp{
+    /* border: 1px solid red; */
+    width :100%;
+    max-width: 85%;
+    /* display: flex; */
+    margin-top: 10px;
+}
+
+.checkInp label{
+    width: 20%;
+    /* margin-bottom: 50px; */
+}
+.headinglabel{
+    /* margin-bottom: 50px; */
+    /* padding-bottom: 10px; */
+    text-decoration: underline;
+
+}
+.inputsContainer{
+    display: flex;
+    /* border: 1px solid red; */
+    width: 100%;
+    max-width: 90%;
+    margin-top: 10px;
+
+}
+.checkboxContainer{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 50%;
+
+}
+.regioncheckboxContainer{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 50%;
+    
+
+}
+.checkboxContainer label{
+    
+    width: 100%;
+
+}
+.checkboxContainer input{
+    margin-left: -180px;
+}
+
+/* All products product table */
+
+.productTable{
+
+width: 60vw;
+border-collapse :collapse ;
+margin: 50px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+border-radius: 20px;
+padding: 30px;
+}
+.productTable th,
+.productTable td{
+   
+padding: 10px;
+
+}
+.productTable th{
+text-align: left;
+/* background-color: gray; */
+}
+
+.productTable button{
+    padding: 6px 10px;
+    
+    
+    font-size: large;
+    
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 4.0px 8.0px 8.0px hsl(0deg 0% 0% / 0.38)
+}
+
+
+/* page not found */
+.errorSection{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: red;  
+}
+.errorSection span{
+    font-size: 60px;
+}
+
+.goHome{
+    font-size: larger;
+}
